@@ -62,6 +62,9 @@ function addLinks() {
       btn.className = 'wio-link';
       btn.setAttribute('target', target);
       btn.setAttribute('href', url);
+      if (el.dataset.wioTitle) {
+        btn.setAttribute('title', el.dataset.wioTitle);
+      }
 
       btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M30,7L25,2 5,22 3,29 10,27ZM21,6L26,11ZM5,22L10,27Z"/></svg>';
 
