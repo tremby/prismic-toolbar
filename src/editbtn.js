@@ -25,7 +25,6 @@
  * SOFTWARE.
  */
 
-import 'whatwg-fetch';
 import coookies from './coookies';
 
 function setup(endpoint) {
