@@ -1,7 +1,11 @@
 {
-  "name": "prismic-toolbar",
-  "version": "0.0.8",
+  "name": "@tremby/prismic-toolbar",
+  "version": "0.1.0",
   "description": "Prismic toolbar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tremby/prismic-toolbar.git"
+  },
   "main": "./dist/npm-prismic-toolbar.js",
   "scripts": {
     "build": "./build.sh",

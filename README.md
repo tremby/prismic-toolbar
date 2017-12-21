@@ -1,4 +1,5 @@
-[![Dependency Status](https://david-dm.org/prismicio/prismic-toolbar.svg)](https://david-dm.org/prismicio/prismic-toolbar)
+This is a fork of the official
+Prismic toolbar, with my pull requests on the official repository merged.
 
 # Prismic toolbar
 The prismic toolbar is integrated to your website for:
@@ -7,11 +8,8 @@ The prismic toolbar is integrated to your website for:
  - A/B testing (experiments)
 
 ## How to use it?
-There are two ways to use it:
-- As a standalone, if rendering is done server side just include the CDN file:
-```https://unpkg.com/prismic-toolbar/dist/prismic-toolbar.min.js```
-- Integrated in a client-side application: 
-```npm install prismic-toolbar --save```
+- Integrated in a client-side application:
+```npm install @tremby/prismic-toolbar --save-dev```
 
 If you need to support [browsers which don't implement the `fetch` API](https://caniuse.com/#feat=fetch)
 you will probably also want to include a [polyfill](https://github.com/github/fetch).
